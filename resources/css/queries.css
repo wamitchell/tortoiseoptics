@@ -1,0 +1,107 @@
+@media only screen and (max-width: 965px) {
+    
+    header {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #banner {
+        padding-top: 0rem;
+        height: 22rem;
+    }
+    
+    #banner-title {
+        font-size: 1.33rem;
+
+        margin: 5rem 2rem;
+        padding: 0.75rem 4rem;
+
+        background-color: white;
+        display: inline-block;
+        float: right;
+    }
+    
+    #container {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #info {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    
+    header {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    #menu {
+        display: inline;
+    }
+    
+    #banner {
+        background-position: 20%;
+        height: 17rem;
+    }
+    
+    #banner-title {
+        width: 100%;
+        overflow: hidden;
+        padding: 1rem;
+        margin: 9rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+    
+    #container {
+        width: 100%;
+        overflow: hidden;
+        margin: 3.77rem auto;
+        flex-direction: column;
+    }
+    
+    .container-item {
+        margin-top: 1.54rem;
+    }
+    
+    #info {
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .info-item {
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0;
+        margin-bottom: 4rem;
+    }
+    
+    .info-item h3 {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .info-item p {
+        font-size: .77rem;
+        padding: 0rem 2.5rem 0rem 0.7rem;
+    }
+    
+    footer {
+        justify-content: center;
+    }
+    
+    footer p {
+        display: none;
+    }
+}

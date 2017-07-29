@@ -31,6 +31,11 @@ nav ul li {
     margin: 1rem 2rem;
 }
 
+#menu {
+    display: none;
+    margin: 1rem 2rem;
+}
+
 #logo-container {
     margin-left: 2rem;
     display: flex;
@@ -43,6 +48,7 @@ nav ul li {
 
 #logo-container h1 {
     margin-left: 1rem;
+    min-width: 170px
 }
 
 
@@ -54,6 +60,7 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 1rem;
 }
 
 #banner-title {
@@ -62,7 +69,7 @@ nav ul li {
     line-height: 1.2;
     text-transform: uppercase;
     
-    margin: 10rem 4rem;
+    margin: 10rem 4rem 0rem 0rem;
     padding: 1.5rem 5rem;
     
     background-color: white;
@@ -76,15 +83,15 @@ nav ul li {
     width: 960px;
     margin: 3rem auto;
     display: flex;
+    justify-content: center;
 }
 
 .container-item {
     height: 8rem;
-    margin: 3rem 6rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-around;
     text-align: center;
 }
 
